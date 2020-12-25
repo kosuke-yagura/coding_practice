@@ -84,8 +84,8 @@ header {
 
 .btn-trigger {
   position: relative;
-  width: 50px;
-  height: 40px;
+  width: 40px;
+  height: 30px;
   cursor: pointer;
   z-index: 3;
 }
@@ -638,6 +638,9 @@ footer > h4 {
 }
 
 @media (max-width: 800px) {
+  header {
+    height: 75px;
+  }
   .nav-menu {
     display: none;
   }
